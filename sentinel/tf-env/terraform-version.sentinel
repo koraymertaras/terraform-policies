@@ -1,7 +1,7 @@
 import "tfplan"
 import "version"
  
-param tfver default "1.10.0"
+param tfver default "1.15.0"
  
 main = rule {
   version.new(tfplan.terraform_version).greater_than(tfver)
