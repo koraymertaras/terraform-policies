@@ -1,4 +1,3 @@
-import "tfplan"
 import "version"
  
 param tfver default "1.15.0"
